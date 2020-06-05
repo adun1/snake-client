@@ -11,7 +11,19 @@ const connect = function() {
   //check for successful connection
   conn.on('connect', () => {
     console.log("Successfully connected to game server");
+    
     conn.write("Name: BRI");
+    // conn.write("Move: up");
+    // setTimeout(() => {
+    //   //conn.write("Move: up");
+    //   conn.write("Move: left");
+      
+    // }, 50);
+
+    // setInterval(() => {
+    //   conn.write("Move: up");
+    // }, 150)
+    // // conn.write("Move: up");
 
   });
   

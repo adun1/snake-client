@@ -22,6 +22,25 @@ const handleUserInput = function(data) {
   case 'd':
     connection.write('Move: right');
     break;
+  case '0':
+    connection.write('Say: ');
+    break;
+  case '1':
+    connection.write('Say: good game');
+    break;
+  case '2':
+    connection.write('Say: Game Over!');
+    break;
+  case '3':
+    connection.write("Say: good luck have fun!");
+    break;
+  case '4':
+    connection.write("Say: well played");
+    break;
+  case '5':
+    connection.write("Say: rematch?");
+    break;
+  
   default:
       // console.log("none of the options");
   }

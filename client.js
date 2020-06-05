@@ -31,6 +31,7 @@ const connect = function() {
   //recieive data from server
   conn.on('data', (data) => {
     console.log(data);
+    // console.log("#Hello");
   });
 
 

@@ -8,7 +8,7 @@ const {setupInput} = require('./input');
 const play = function() {
   console.log('Connecting ...');
   const connection = connect();
-  const stdInput = setupInput();
+  const stdInput = setupInput(connection);
 };
 
 play();
